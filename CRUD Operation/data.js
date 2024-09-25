@@ -1,0 +1,20 @@
+    
+    const todos =   [
+            {
+                id:1,
+                firstName:"jasim",
+                lastName:"jasim"
+            },
+            {
+                id:2,
+                firstName:"salman",
+                lastName:"faris"
+            },
+            {
+                id:3,
+                firstName:"mohammed",
+                lastName:"rinshid"
+            }
+        ]
+
+        module.exports=todos
