@@ -1,11 +1,11 @@
 const mongoose = require("mongoose")
-
-const addressSchema = new mongoose.Schema({
+const Schema = mongoose.Schema
+const addressSchema = new Schema({
         street:String,
         city:String
 })
 
-const userSchema = new mongoose.Schema({
+const userSchema = new Schema({
     name:String,
     age:{
         type:Number,
