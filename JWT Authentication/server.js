@@ -43,7 +43,6 @@ app.post('/users' ,async (req,res)=>{
 //    catch{
 //     res.status(500).send()
 //    }
-
     const username = req.body.username
     const user = {name:username}
 

@@ -63,3 +63,13 @@ app.listen(3000,()=>{
     console.log('your server runnig on the port 3000');
     
 })
+
+// app.delete("/products/:id",(req,res)=>{
+
+//     const id=parseInt(req.params.id)
+
+//     const newdata=products.filter((item)=>item.id!==id)
+//     products=newdata
+//     res.status(200).json({message:"item deleted"})
+// })
+
