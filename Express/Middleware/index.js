@@ -3,7 +3,7 @@ const app = express()
 const token = require('./tocken')
 const validation = require('./validation')
 
-app.use(costom)
+app.use(application)
 
 const middlwares = [token,validation] 
 
@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
     console.log('home page running')
 })
 
-function costom (req,res,next){
+function application (req,res,next){
 console.log(new Date())
 next()
 }

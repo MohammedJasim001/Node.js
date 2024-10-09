@@ -28,6 +28,7 @@ app.get('/users',async(req,res)=>{
         res.status(200).json(Users)
     }catch(error){
         res.status(404).json({messege:error.messege})
+        
     }
 })
 
